@@ -71,7 +71,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: black;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -79,7 +79,7 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -60px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -89,41 +89,40 @@
 .slick-prev:before
 {
     content: '<';
-    font-size: 50px;
+    font-size: 75px;
     font-weight: bolder;
-    margin: 15px;
+    margin: 0px;
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '>';
-    font-size: 50px;
+    font-size: 75px;
     font-weight: bolder;
-    margin: 15px;
+    margin: 0px;
 }
 
 .slick-next
 {
-    right: -25px;
+    right: -35px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: 15px;
 }
 .slick-next:before
 {
     content: '>';
-    font-size: 50px;
+    font-size: 75px;
     font-weight: bolder;
-    margin: 15px;
+    margin: 5px;
 }
 [dir='rtl'] .slick-next:before
 {
     content: '<';
-    font-size: 50px;
+    font-size: 75px;
     font-weight: bolder;
-    background-color: green;
-    margin: 15px;
+    margin: 0px;
 }
 
 /* Dots */

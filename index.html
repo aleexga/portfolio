@@ -1,86 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Takeaway</title>
+  <title>alexbuildstheweb</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/slick.css"/>
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
   <link rel="stylesheet" type="text/css"  href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="fonts/anton.ttf">
+  <link rel="stylesheet" type="text/css" href="fonts/varela.ttf">
   <meta charset="utf-8">
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-static-top">
-    <p class="navbar-text">alex</p>
+  <nav class="navbar navbar-default navbar-static-top transparent">
+    <p class="navbar-text nav-text">
+      alexbuildstheweb
+    </p>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Work</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#" class="nav-text">Home</a></li>
+      <li><a href="#about" class="nav-text">About</a></li>
+      <li><a href="#work" class="nav-text">Work</a></li>
+      <li><a href="#" class="nav-text">Blog</a></li>
+      <li><a href="#" class="nav-text">Contact</a></li>
     </ul>
   </nav>
-  <header class="container hero">
+  <header class="container-fluid hero max-height">
     <section class="row">
-      <div class="col-md-12 text-center">
-        <h2>hello. my name is alex.</h2>
-        <h2>some text here.</h2>
+      <div class="col-xs-12 text-center top">
+        <h2>hello, my name is alex.</h2>
+        <h2>i design stuff.</h2>
+        <h2>let me design your stuff.</h2>
         <h2 class="element"></h2>
       </div>
     </section>
   </header>
   <main>
-    <section class="container">
+    <section class="container max-height">
       <div class="row">
-        <div class="col-md-6">
-          <h2 class="sectiontitle">about</h2>
+        <div class="col-md-5">
+          <h2 class="sectiontitle">
+            <a name="about">about</a>
+          </h2>
           <h3>
             Always learning and trying new things.
           </h3>
           <p>
             Hello! My name is alex and I create beautiful, functional, and responsive websites. I'm passionate for the non-stop process of learning ever-changing programming languages, traveling pretty much anywhere, connecting with nature, and watching every movie available.
           </p>
+          <section class="container">
+            <div class="row">
+              <div class="col-md-6 text-center">
+                <h3>I have</h3>
+                  <ul>
+                    <li>passion for design</li>
+                    <li>strong sense of design</li>
+                    <li>attention to detail</li>
+                    <li>ability to manage my time</li>
+                    <li>experience in responsive design</li>
+                  </ul>
+              </div>
+              <div class="col-md-6 text-center">
+                <h3>i love ♥</h3>
+                <ul>
+                  <li>coming up with big ideas </li>
+                  <li>teamwork and collaboration</li>
+                  <li>my cat, kiara and her big eyes</li>
+                  <li>writing movie reviews</li>
+                  <li>web and graphic design</li>
+                  <li>taking my camera everywhere</li>
+                </ul>
+              </div>
+            </div>
+          </section>
         </div>
-        <div class="col-md-6">
-          <img src="img/5.jpg" class="img-responsive" alt="">
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-6">
-          <h2 class="sectiontitle">i have</h2>
-          <ul>
-            <li>passion for design</li>
-            <li>strong sense of design</li>
-            <li>attention to detail</li>
-            <li>desire of working with other teams</li>
-            <li>ability to manage my time</li>
-            <li>experience in responsive design</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <h2 class="sectiontitle">i ♥ love</h2>
-          <ul>
-            <li>coming up with big ideas </li>
-            <li>teamwork and collaboration</li>
-            <li>my cat, kiara and her big eyes</li>
-            <li>watching all the movies i can and writing reviews</li>
-            <li>reading up on everything i can get my hands on</li>
-            <li>everything web and graphic design</li>
-            <li>exercising and seeing the results</li>
-            <li>taking my camera everywhere</li>
-          </ul>
+        <div class="col-md-7">
+          <img src="img/aboutme.jpg" class="img-responsive" alt="">
         </div>
       </div>
     </section>
-    <section class="bgcolor container">
+    <section class="bgcolor white-font container max-height">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="sectiontitle">skills</h2>
+          <h2 class="sectiontitle">
+            <a name="skills">skills</a>
+          </h2>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <h3 class="subtitle">dev</h3>
+          <h3>dev</h3>
           <p>
             css
             <span class="circle"></span>
@@ -107,7 +115,7 @@
           </p>
         </div>
         <div class="col-md-4">
-          <h3 class="subtitle">design</h3>
+          <h3>design</h3>
           <p>
             photoshop
             <span class="circle"></span>
@@ -134,9 +142,9 @@
           </p>
         </div>
         <div class="col-md-4">
-          <h3 class="subtitle">extras</h3>
+          <h3>extras</h3>
           <p>
-            bilingual
+            spanish speaker
             <span class="circle filled"></span>
             <span class="circle filled"></span>
             <span class="circle filled"></span>
@@ -144,16 +152,16 @@
             <span class="circle filled"></span>
           </p>
           <p>
-            Photography
-            <span class="circle filled"></span>
-            <span class="circle filled"></span>
-            <span class="circle filled"></span>
-            <span class="circle filled"></span>
+            french speaker
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
             <span class="circle filled"></span>
           </p>
           <p>
-            xxxxx
-            <span class="circle filled"></span>
+            photography
+            <span class="circle"></span>
             <span class="circle filled"></span>
             <span class="circle filled"></span>
             <span class="circle filled"></span>
@@ -162,37 +170,74 @@
         </div>
       </div>
     </section>
-    <section class="bgcolor container">
-      <section class="row">
+    <section class="container max-height">
+      <section class="row border-bottom">
         <div class="col-md-12">
-          <h2 class="sectiontitle">works</h2>
+          <h2 class="sectiontitle">
+            <a name="work">featured work</a>
+          </h2>
           <div class="single-item">
-            <div><img src="img/5.jpg" alt=""></div>
-            <div><img src="img/5.jpg" alt=""></div>
-            <div><img src="img/5.jpg" alt=""></div>
-            <div><img src="img/5.jpg" alt=""></div>
-            <div><img src="img/5.jpg" alt=""></div>
+            <!--   inside slick pages  -->
+            <div>
+              <div class="work-text">
+                <h3>
+                Graphic Design & Illustration Program Advertisement
+                </h3>
+                <p class="work-subtitle">Intent:</p>
+                Create a poster promoting a high school graphic design class.
+                <p class="works-subtitle">Technologies:</p>
+                Background created in photoshop.
+                <br>
+                Text modified in illustrator.
+              </div>
+              <img src="https://c3.staticflickr.com/6/5717/31078679930_55bcc126bc_b.jpg" alt="" class="right-image">
+            </div>
+            <div>
+              <p class="text-left">
+                Hello this is a project
+              </p>
+              <img src="img/5.jpg" alt="" class="right-image">
+            </div>
+            <div>
+              <p class="text-left">
+                Hello this is a project
+              </p>
+              <img src="img/5.jpg" alt="" class="right-image">
+            </div>
+            <div>
+              <p class="text-left">
+                Hello this is a project
+              </p>
+              <img src="img/5.jpg" alt="" class="right-image">
+            </div>
             <div>
               <h5>hello</h5>
             </div>
+          </div>
         </div>
+      </section>
+      <section class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="sectiontitle">
+            <a href="">more work here</a>
+          </h2>
         </div>
       </section>
     </section>
   </main>
   <footer class="bgcolor container">
     <section class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <h2 class="sectiontitle">social media</h2>
         <p>facebook</p>
         <p>twitter</p>
         <p>github</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <h2 class="sectiontitle">Freelancing?</h2>
         <p>aleexga@gmail.com</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <h2 class="sectiontitle">Other Links</h2>
         <p>movie review blog</p>
         <p>personal blog</p>
@@ -214,8 +259,11 @@
   <script>
     $(function(){
         $(".element").typed({
-          strings: ["this", "and this", "and this"],
-          typeSpeed: 20,
+          strings: ["i build responsive websites",
+          "i design graphics",
+          "i create logos",
+          "i take photos"],
+          typeSpeed: 30,
           loop: true
         });
     });
