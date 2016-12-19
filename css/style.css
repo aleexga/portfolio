@@ -31,6 +31,7 @@ h3{
   text-transform: uppercase;
   font-family: 'varela', sans-serif;
   font-weight: bolder;
+  padding-bottom: 10px;
 }
 p{
   font-size: 16px;
@@ -78,7 +79,7 @@ a:focus, a:hover {
   padding: 5px 50px 5px 50px;
 }
 .max-height{
-  height: 100vh;
+  min-height: 50vh;
 }
 /*hero banner*/
 .hero{
@@ -98,7 +99,8 @@ a:focus, a:hover {
   padding: 0px;
 }
 .bgcolor{
-  background-color: #FE9FC1;
+  background-color: #7aacb3;
+  color: #fff;
 }
 .top{
   padding-top: 15vh;
@@ -110,7 +112,10 @@ a:focus, a:hover {
   color: #fff;
   height: auto;
   background-size: cover;
-  height: 75vh;
+  min-height: 50vh;
+}
+.skills{
+  min-height: 20vh;
 }
 /*circles*/
 .circle {
