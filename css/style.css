@@ -14,11 +14,11 @@ html, body{
   height: 100%;
 }
 nav{
-  padding: 0px 25px 0px 25px;
+  padding: 0 25px 0 25px;
 }
 section footer{
   padding: 10px 20px 10px 20px;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0 10px 0;
 }
 h2{
   text-transform: uppercase;
@@ -82,11 +82,11 @@ a:focus, a:hover {
 }
 /*hero banner*/
 .hero{
-  background-image: url("../img/hero3.jpg");
+  background-image: url("../img/hero2.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
-  height: 75%;
+  height: 55%;
   width: 100%;
 }
 .sectiontitle{
@@ -101,7 +101,7 @@ a:focus, a:hover {
   background-color: #FE9FC1;
 }
 .top{
-  padding-top: 25vh;
+  padding-top: 15vh;
 }
 /*about me*/
 .about-hero{
