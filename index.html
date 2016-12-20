@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css"  href="css/style.css">
   <link rel="stylesheet" type="text/css" href="fonts/anton.ttf">
   <link rel="stylesheet" type="text/css" href="fonts/varela.ttf">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <meta charset="utf-8">
 </head>
 <body>
@@ -37,7 +38,7 @@
   </header>
   <main>
     <section class="container">
-      <div class="row">
+      <div class="row content">
         <div class="col-xs-12 col-md-5">
           <h2 class="sectiontitle">
             <a name="about">about</a>
@@ -58,15 +59,12 @@
           </p>
         </div>
         <div class="col-xs-12 col-md-7 about-hero">
-          <!--
-          <img src="img/aboutme.jpg" class="img-responsive" alt="">
-          -->
         </div>
       </div>
     </section>
-    <section class="container">
+    <section class="container break">
       <div class="row bgcolor skills">
-        <div class="col-xs-12 col-md-4 text-center">
+        <div class="col-xs-12 col-md-4">
           <h3>dev</h3>
           <p>
             css
@@ -93,7 +91,7 @@
             <span class="circle filled"></span>
           </p>
         </div>
-        <div class="col-xs-12 col-md-4 text-center">
+        <div class="col-xs-12 col-md-4">
           <h3>design</h3>
           <p>
             photoshop
@@ -120,7 +118,7 @@
             <span class="circle filled"></span>
           </p>
         </div>
-        <div class="col-xs-12 col-md-4 text-center">
+        <div class="col-xs-12 col-md-4">
           <h3>extras</h3>
           <p>
             spanish speaker
@@ -149,99 +147,182 @@
         </div>
       </div>
     </section>
-    <section class="container max-height">
+    <!-- works section -->
+    <section class="container content">
       <section class="row">
-        <div class="col-xs-12 col-md-12">
-          <h2 class="sectiontitle">
-            <a name="work">featured work</a>
-          </h2>
-          <div class="single-item">
-            <!--   inside slick pages  -->
-            <div>
-              <div class="work-text">
-                <h3>
-                Illustration
-                </h3>
-                <p class="work-subtitle">Intent:</p>
-                Create an original illustration of an animated character.
-                <p class="works-subtitle">Technologies:</p>
-                Illustrator.
+        <div class="hidden-xs hidden-sm col-md-12 col-lg-12 max-height">
+          <!-- works for tables, medium, large devices-->
+          <section class="container">
+            <div class="row">
+              <div class="col-md-12 col-lg-12">
+                <h2 class="sectiontitle">
+                  <a name="work">featured work</a>
+                </h2>
+                <div class="single-item">
+                  <!--   inside slick pages  -->
+                  <div>
+                    <div class="work-text">
+                      <h3>
+                      Illustration
+                      </h3>
+                      <h3>Intent:</h3>
+                      Create an original illustration of an animated character.
+                      <h3>Technologies:</h3>
+                      Illustrator.
+                    </div>
+                    <img src="img/work1.jpg" alt="" class="right-image">
+                  </div>
+                  <div>
+                    <div class="work-text">
+                      <h3>
+                      Graphic Design & Illustration Program Advertisement
+                      </h3>
+                      <h3>Intent:</h3>
+                      Create a poster promoting a high school graphic design program.
+                      <h3>Technologies:</h3>
+                      Photoshop
+                      <br>
+                      Illustrator
+                    </div>
+                    <img src="img/work2.jpg" alt="" class="right-image">
+                  </div>
+                  <div>
+                    <div class="work-text">
+                      <h3>
+                      Imagine. Create. Illustration
+                      </h3>
+                      <h3>Intent:</h3>
+                      Create a design for the theme of converting ideas to reality.
+                      <h3>Technologies:</h3>
+                      Illustrator
+                      <br>
+                      Photoshop
+                    </div>
+                    <img src="img/work3.jpg" alt="" class="right-image">
+                  </div>
+                  <div>
+                    <div class="work-text">
+                      <h3>
+                      Original Shirt design
+                      </h3>
+                      <h3>Intent:</h3>
+                      Create a shirt design.
+                      <h3>Technologies:</h3>
+                      Photoshop.
+                      <br>
+                      Illustrator.
+                    </div>
+                    <img src="img/work4.jpg" alt="" class="right-image">
+                  </div>
+                </div>
               </div>
-              <img src="img/work1.jpg" alt="" class="right-image">
             </div>
-            <div>
-              <div class="work-text">
-                <h3>
-                Graphic Design & Illustration Program Advertisement
-                </h3>
-                <p class="work-subtitle">Intent:</p>
-                Create a poster promoting a high school graphic design program.
-                <p class="work-subtitle">Technologies:</p>
-                Photoshop
-                <br>
-                Illustrator
-              </div>
-              <img src="img/work2.jpg" alt="" class="right-image">
-            </div>
-            <div>
-              <div class="work-text">
-                <h3>
-                Imagine. Create. Illustration
-                </h3>
-                <p class="work-subtitle">Intent:</p>
-                Create a design for the theme of converting ideas to reality.
-                <p class="works-subtitle">Technologies:</p>
-                Illustrator
-                <br>
-                Photoshop
-              </div>
-              <img src="img/work3.jpg" alt="" class="right-image">
-            </div>
-            <div>
-              <div class="work-text">
-                <h3>
-                Original Shirt design
-                </h3>
-                <p class="work-subtitle">Intent:</p>
-                Create a shirt design.
-                <p class="works-subtitle">Technologies:</p>
-                Photoshop.
-                <br>
-                Illustrator.
-              </div>
-              <img src="img/work4.jpg" alt="" class="right-image">
-            </div>
-          </div>
+          </section>
         </div>
       </section>
+      <!-- works for small devices-->
       <section class="row">
-        <div class="col-md-12 text-center">
-          <h2 class="sectiontitle">
-            <a href="">more work here</a>
-          </h2>
-        </div>
+        <section class="hidden-md hidden-lg col-xs-12 col-sm-12">
+          <section class="container content max-height">
+            <div class="row content">
+              <div class="col-md-12 hidden-md hidden-lg">
+                <h2 class="sectiontitle">
+                  <a name="work">featured work</a>
+                </h2>
+              </div>
+            </div>
+            <div class="row content">
+              <div class="col-md-12 hidden-md hidden-lg">
+                <div class="work-text">
+                  <h3>
+                  Illustration
+                  </h3>
+                  <h3>Intent:</h3>
+                  Create an original illustration of an animated character.
+                  <h3>Technologies:</h3>
+                  Illustrator.
+                </div>
+                <img src="img/work1.jpg" alt="" class="right-image">
+              </div>
+            </div>
+            <div class="row content">
+              <div class="col-md-12 hidden-md hidden-lg">
+                <div class="work-text">
+                  <h3>
+                  Graphic Design & Illustration Program Advertisement
+                  </h3>
+                  <h3>Intent:</h3>
+                  Create a poster promoting a high school graphic design program.
+                  <h3>Technologies:</h3>
+                  Photoshop
+                  <br>
+                  Illustrator
+                </div>
+                <img src="img/work2.jpg" alt="" class="right-image">
+              </div>
+            </div>
+            <div class="row content">
+              <div class="col-md-12 hidden-md hidden-lg">
+                <div class="work-text">
+                  <h3>
+                  Imagine. Create. Illustration
+                  </h3>
+                  <h3>Intent:</h3>
+                  Create a design for the theme of converting ideas to reality.
+                  <h3>Technologies:</h3>
+                  Illustrator
+                  <br>
+                  Photoshop
+                </div>
+                <img src="img/work3.jpg" alt="" class="right-image">
+              </div>
+            </div>
+            <div class="row content">
+              <div class="col-md-12 hidden-md hidden-lg">
+                <div class="work-text">
+                  <h3>
+                  Original Shirt design
+                  </h3>
+                  <h3>Intent:</h3>
+                  Create a shirt design.
+                  <h3>Technologies:</h3>
+                  Photoshop.
+                  <br>
+                  Illustrator.
+                </div>
+                <img src="img/work4.jpg" alt="" class="right-image">
+              </div>
+            </div>
+          </section>
+        </section>
       </section>
     </section>
   </main>
-  <footer class="bgcolor container">
+  <!-- footer starts here -->
+  <footer class="bgcolor container break">
     <section class="row">
-      <div class="col-md-4 text-center">
+      <div class="col-md-3 text-center">
         <h2 class="sectiontitle">social media</h2>
         <p>facebook</p>
         <p>twitter</p>
         <p>github</p>
       </div>
-      <div class="col-md-4 text-center">
+      <div class="col-md-3 text-center">
         <h2 class="sectiontitle">Freelancing?</h2>
-        <p>aleexga@gmail.com</p>
+        <p><a href="contact.html">Message me!</a></p>
       </div>
-      <div class="col-md-4 text-center">
+      <div class="col-md-3 text-center">
         <h2 class="sectiontitle">Other Links</h2>
         <p>movie review blog</p>
         <p>personal blog</p>
       </div>
+      <div class="col-md-3 text-center">
+        <h2 class="sectiontitle">Find me here!</h2>
+        <div id="map"></div>
+      </div>
     </section>
   </footer>
+  <!--  scripts  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <!--   slick js -->
@@ -265,6 +346,22 @@
           loop: true
         });
     });
+  </script>
+  <!-- Google maps -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+  </script>
+  <script>
+    function initMap() {
+      var uluru = {lat: -25.363, lng: 131.044};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
   </script>
 </body>
 </html>
