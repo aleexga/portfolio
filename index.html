@@ -21,7 +21,7 @@
         <span class="icon-bar"></span>
       </button>
       <p class="navbar-text nav-text">
-        alexgarcia
+        alexbuildstheweb
       </p>
     </div>
     <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="myNavbar">
@@ -36,7 +36,6 @@
     <section class="row">
       <div class="col-xs-12 text-center top">
         <h2 class="animated fadeInUp">hello, my name is alex.</h2>
-        <h2 class="animated fadeInUp">i design stuff.</h2>
         <h2 class="element animated fadeInUp"></h2>
       </div>
     </section>
@@ -324,17 +323,17 @@
           <form action="https://docs.google.com/forms/d/e/1FAIpQLSeuVFOY__2Kbi1edlhfkJW-aQ2RQUSWtd5euI2LLOxqUfbeIA/formResponse"
           method="POST" target="_self" onsubmit="">
             <center>
-              <label for="entry_1294554207">Name:</label>
+              <label for="entry_1294554207">Your name:</label>
               <input type="text" name="entry.1294554207" value="" dir="auto" aria-label="Name:  " title="">
-              <label for="entry_516191625">E-mail:</label>
+              <label for="entry_516191625">Your e-mail:</label>
               <input type="email" name="entry.516191625" value="" dir="auto" aria-label="E-mail:  Must be a valid email address" title="Must be a valid email address">
-              <label for="entry_556503912">Message:</label>
+              <label for="entry_556503912">How can I help you?</label>
               <textarea name="entry.556503912" rows="4" cols="0" dir="auto" aria-label="Message:  "></textarea>
               <input type="hidden" name="draftResponse" value="[,,&quot;7881282382007330233&quot;]">
               <input type="hidden" name="pageHistory" value="0">
               <input type="hidden" name="fbzx" value="7881282382007330233">
               <label for="emailReceipt" style="display:inline;"></label>
-              <input type="submit" name="submit" value="Submit" class="submit">
+              <input type="submit" name="submit" value="Message me!" class="submit">
             </center>
           </form>
         </div>
@@ -353,7 +352,8 @@
   <script type="text/javascript">
   $(document).ready(function(){
     $('.single-item').slick({
-    });
+      adaptiveHeight: true
+    });		
   });
   </script>
   <!--   typed js -->
@@ -365,7 +365,11 @@
           "i design graphics.",
           "i create logos.",
           "i take photos."],
-          typeSpeed: 5,
+          typeSpeed: 30,
+          backSpeed: 20,
+          backDelay: 900,
+          showCursor: true,
+          cursorChar: "|",
           loop: true
         });
     });

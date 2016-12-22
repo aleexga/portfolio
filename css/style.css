@@ -25,7 +25,7 @@ section footer{
 }
 h2{
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 60px;
   font-family: 'anton', sans-serif;
   font-weight: lighter;
 }
@@ -70,6 +70,7 @@ a:focus, a:hover {
 /*containers*/
 .content{
   padding: 5px 25px 5px 25px;
+  max-width: 1920px;
 }
 .break{
   width: 100%;
@@ -92,7 +93,7 @@ a:focus, a:hover {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  color: #fff;
+  color: #2c2c2c;
   height: 70%;
   width: 100%;
 }
@@ -109,11 +110,11 @@ a:focus, a:hover {
   color: #fff;
 }
 .top{
-  padding-top: 20vh;
+  margin-top: 20vh;
 }
 .fadeInUp{
   -webkit-animation-duration: 10s;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 1s;
   -webkit-animation-iteration-count: one;
 }
 /*about me*/
@@ -159,12 +160,24 @@ a:focus, a:hover {
 }
 .right-image{
   float: right;
-  width: 60%;
+  max-width: 60%;
+  max-height: 65vh;
+}
+/*slick js css modifications*/
+.single-item {
+  width: 99%;
+  max-width: 1920px;
+  height: 75vh;
+  margin: auto; 
+}
+.center-works{
+  margin:auto;
 }
 /*footer*/
 #map {
   height: 200px;
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 footer{
   padding-bottom: 20px;
@@ -190,12 +203,6 @@ form{
   background-color: #7aacb3;
   border: 2px #fff solid;
 }
-/*slick js css modifications*/
-.single-item {
-    width: 95%;
-    height: auto;
-    margin: auto;
-}
 /*typed js css*/
 .typed-cursor{
 	visibility: hidden;
@@ -207,6 +214,7 @@ form{
     -ms-animation: blink 0.7s infinite;
     -o-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
+    color: #2c2c2c;
 }
 @keyframes blink{
     0% { opacity:1; }
