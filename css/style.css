@@ -67,13 +67,6 @@ a:focus, a:hover {
   width: 100%;
   opacity: .9;
 }
-/*
-@media (min-width: 992px){
-  .navbar{
-    position:
-  }
-}
-*/
 /*containers*/
 .content{
   padding: 5px 25px 5px 25px;
@@ -84,7 +77,7 @@ a:focus, a:hover {
   padding-bottom: 5px;
 }
 .max-height{
-  min-height: 50vh;
+  height: 75vh;
 }
 .container{
   padding: 0 0 0 0;
@@ -100,7 +93,7 @@ a:focus, a:hover {
   background-position: center center;
   background-attachment: fixed;
   color: #fff;
-  height: 55%;
+  height: 70%;
   width: 100%;
 }
 .sectiontitle{
@@ -116,10 +109,10 @@ a:focus, a:hover {
   color: #fff;
 }
 .top{
-  padding-top: 15vh;
+  padding-top: 20vh;
 }
 .fadeInUp{
-  -webkit-animation-duration: 8s;
+  -webkit-animation-duration: 10s;
   -webkit-animation-delay: 2s;
   -webkit-animation-iteration-count: one;
 }
