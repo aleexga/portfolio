@@ -26,7 +26,7 @@ section footer{
 h2{
   text-transform: uppercase;
   font-size: 60px;
-  font-family: 'anton', sans-serif;
+  font-family: 'varela', sans-serif;
   font-weight: lighter;
 }
 h3{
@@ -127,7 +127,7 @@ a:focus, a:hover {
   overflow: hidden;
 }
 .skills{
-  padding: 25px 25px 25px 25px;
+  padding: 15px 25px 15px 25px;
 }
 /*circles*/
 .circle {
@@ -157,7 +157,10 @@ a:focus, a:hover {
   height: 100%;
   background: rgba(238,221,228,0.7);
   text-align: center;
-  padding: 0, 10px, 0, 10px;
+  padding: 0 20px 0 20px;
+}
+.work-title{
+  color: #815262;
 }
 .work-subtitle{
   font-size: 20px;
@@ -170,35 +173,10 @@ a:focus, a:hover {
 .item:hover .work-text{
   display: block;
 }
-
-.grid {
-  max-width: 100%;
+.item{
+  margin: 0;
 }
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-.grid-item {
-  width: 25%;
-  height: 100%;
-  float: left;
-  border: 5px solid #eedde4;
-  border-radius: 5px;
-}
-.grid-item--width2 { width: 320px; }
-.grid-item--width3 { width: 480px; }
-.grid-item--width4 { width: 640px; }
-.grid-item--height2 { height: 200px; }
-.grid-item--height3 { height: 260px; }
-.grid-item--height4 { height: 360px; }
-
 /*footer*/
-#map {
-  height: 200px;
-  width: 80%;
-  margin: auto;
-}
 footer{
   padding-bottom: 20px;
 }
@@ -251,7 +229,7 @@ form{
     50% { opacity:0; }
     100% { opacity:1; }
 }
-/*works section js*/
+/*works section js text overlay*/
 $('.work-text').hide().removeClass('work-text').addClass('work-js');
 
 $('.item').hover(function(){
