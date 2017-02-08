@@ -51,11 +51,11 @@ ul{
   padding: 0px;
 }
 a{
-  color: #2C2C2C;
+  color: #dbc0c9;
   text-decoration: none;
 }
 a:focus, a:hover {
-  color: #2C2C2C;
+  color: #eedde4;
   text-decoration: none;
 }
 .white-font{
@@ -155,7 +155,7 @@ a:focus, a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(238,221,228,0.7);
+  background: rgba(238,221,228,0.8);
   text-align: center;
   padding: 0 20px 0 20px;
 }
@@ -175,6 +175,12 @@ a:focus, a:hover {
 }
 .item{
   margin: 0;
+  padding-bottom: 10px;
+  position: relative;
+}
+.block{
+  margin: 0;
+  padding: 5px;
 }
 /*footer*/
 footer{
