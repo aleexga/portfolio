@@ -157,7 +157,7 @@ a:focus, a:hover {
   height: 100%;
   background: rgba(238,221,228,0.8);
   text-align: center;
-  padding: 0 20px 0 20px;
+  padding: 0 5px 0 5px;
 }
 .work-title{
   color: #815262;
