@@ -182,6 +182,9 @@ a:focus, a:hover {
   margin: 0;
   padding: 5px;
 }
+.link{
+  color: #815262;
+}
 /*footer*/
 footer{
   padding-bottom: 20px;
@@ -240,4 +243,17 @@ $('.work-text').hide().removeClass('work-text').addClass('work-js');
 
 $('.item').hover(function(){
     $(this).find('.work-js').fadeToggle();
+});
+
+
+$(".link").click(function(e){
+    e.preventDefault();
+    $(".image-size").fadeIn(300,function(){$(this).focus();});
+});
+
+$('.close').click(function() {
+   $(".image-size").fadeOut(300);
+});
+$(".image-size").on('blur',function(){
+    $(this).fadeOut(300);
 });
