@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>alexbuildstheweb</title>
+  <title>alexgarcia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/slick.css"/>
@@ -9,24 +13,103 @@
   <link rel="stylesheet" type="text/css"  href="css/style.css">
   <link rel="stylesheet" type="text/css" href="fonts/anton.ttf">
   <link rel="stylesheet" type="text/css" href="fonts/varela.ttf">
-  <meta charset="utf-8">
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Font Awesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>  
 </head>
+
 <body>
-  <main class="contact">
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeuVFOY__2Kbi1edlhfkJW-aQ2RQUSWtd5euI2LLOxqUfbeIA/formResponse"
-    method="POST" target="_self" onsubmit="">
-      <label for="entry_1294554207">Name:</label>
-      <input type="text" name="entry.1294554207" value="" dir="auto" aria-label="Name:  " title="">
-      <label for="entry_516191625">E-mail:</label>
-      <input type="email" name="entry.516191625" value="" dir="auto" aria-label="E-mail:  Must be a valid email address" title="Must be a valid email address">
-      <label for="entry_556503912">Message:</label>
-      <textarea name="entry.556503912" rows="8" cols="0" dir="auto" aria-label="Message:  "></textarea>
-      <input type="hidden" name="draftResponse" value="[,,&quot;7881282382007330233&quot;]">
-      <input type="hidden" name="pageHistory" value="0">
-      <input type="hidden" name="fbzx" value="7881282382007330233">
-      <label for="emailReceipt" style="display:inline;"></label>
-      <input type="submit" name="submit" value="Submit">
-    </form>
-  </main>
+  <!-- Body -->
+  <div class="nav-wrapper">
+    <!-- Sidebar Nav -->
+    <nav id="sidebar">
+      <ul class="list-unstyled components">
+        <li><a href="../portfolio/index.html">alexgarcia</a></li>
+        <li class="active">
+          <a href="#designSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">design</a>
+          <ul class="collapse list-unstyled" id="designSubmenu">
+            <li><a href="../portfolio/design.html">: graphic</a></li>
+            <li><a href="../portfolio/design.html">: web</a></li>
+          </ul>
+        </li>
+        <li class="active">
+          <a href="#photoSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">photo</a>
+          <ul class="collapse list-unstyled" id="photoSubmenu">
+            <li><a href="../portfolio/photo.html">: faces</a></li>
+            <li><a href="#">: places</a></li>
+            <li><a href="#">: movement</a></li>
+            <li><a href="#">: projects</a></li>
+          </ul>
+        </li>
+        <li><a href="#">blog</a></li>
+        <li><a href="../portfolio/contact.html">contact</a></li>
+      </ul>
+    </nav>
+    <!-- Main Content -->
+    <!-- Toggle button -->
+    <div id="content" class ="contact-container">
+      <nav class="navbar">
+        <div class="container-fluid">
+            <button type="button" id="sidebarCollapse" class="submit">
+                <i class="fas fa-align-left"></i>
+                <span></span>
+            </button>
+        </div>
+      </nav>
+      <!-- Actual content -->
+      <h2 class="sectiontitle">Freelancing?</h2>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSeuVFOY__2Kbi1edlhfkJW-aQ2RQUSWtd5euI2LLOxqUfbeIA/formResponse" method="POST" target="_self" onsubmit="">
+        <label for="entry_1294554207">Your name:</label><br>
+        <input type="text" name="entry.1294554207" value="" dir="auto" aria-label="Name:  " title=""><br>
+        <label for="entry_516191625">Your e-mail:</label><br>
+        <input type="email" name="entry.516191625" value="" dir="auto" aria-label="E-mail:  Must be a valid email address" title="Must be a valid email address"><br>
+        <label for="entry_556503912">How can I help you?</label><br>
+        <textarea name="entry.55650s3912" rows="6" cols="40" dir="auto" aria-label="Message:  "></textarea><br>
+        <input type="hidden" name="draftResponse" value="[,,&quot;7881282382007330233&quot;]">
+        <input type="hidden" name="pageHistory" value="0">
+        <input type="hidden" name="fbzx" value="7881282382007330233">
+        <label for="emailReceipt" style="display:inline;"></label><br>
+        <input type="submit" name="submit" value="Message me!" class="submit">
+      </form>
+          <!--
+          <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+            <h2 class="sectiontitle">Follow</h2>
+            <p><a target="_blank" href="https://github.com/aleexga">
+              github
+            </a></p>
+            <p><a target="_blank" href="https://www.linkedin.com/in/alexandra-garcia-3b868b75/">
+              linkedIn
+            </a></p>
+            <p><a target="_blank" href="https://sta.laits.utexas.edu/author/agarcia94utexas-edu/">
+              STA work (additional work!)
+            </a></p>
+            <p><a target="_blank" href="https://bloommovies.wordpress.com/">
+              movie review blog
+            </a></p>
+            <p><a target="_blank" href="https://bloomlifestyle.wordpress.com/">
+              personal blog
+            </a></p>
+          </div>
+          -->
+    </div>
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <!-- Bootstrap Js CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- jQuery Custom Scroller CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+  <!-- Toggle -->
+  <script type="text/javascript">
+      $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+          $('#sidebar').toggleClass('active');
+        });
+      }); 
+  </script>
+
 </body>
 </html>
