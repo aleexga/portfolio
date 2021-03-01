@@ -25,7 +25,7 @@ html, body{
   left: 0;
   height: 100vh;
   z-index: 999;
-  background: #ffffff;
+  background: transparent;
   background-image: url("../img/cover.jpg");
   background-position-x: center;
   background-position-y: bottom;
@@ -67,6 +67,9 @@ a[data-toggle="collapse"] {
   background: rgba(255, 0, 0, 0.4);
   text-decoration: none;
 }
+.active-page{
+  background: rgba(255, 0, 0, 0.4);
+}
 #sidebar ul li.active > a, a[aria-expanded="true"] {
   color: #fff;
   background: transparent;
@@ -100,9 +103,14 @@ ul ul a {
 /*cover navbar*/
 .cover-nav{
   color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.4);
   width: 100vh;
   justify-content: center;
+}
+.navbar-brand, .navbar-nav>li>a {
+  text-shadow: none;
+}
+.nav>li>a{
+  max-width:inherit;
 }
 .nav{
   font-size: 20px;
@@ -111,21 +119,21 @@ ul ul a {
   font-weight: bolder;
 }
 /*text*/
-h2{
+h1{
   text-transform: uppercase;
-  font-size: 50px;
   font-family: 'varela', sans-serif;
   font-weight: lighter;
+  font-size: 3em;
 }
 h3{
-  font-size: 16px;
+  font-size: 2em;
   text-transform: uppercase;
   font-family: 'varela', sans-serif;
   font-weight: bolder;
   padding-bottom: 10px;
 }
 p{
-  font-size: 16px;
+  font-size: 1em;
   font-family: 'varela', sans-serif;
 }
 ul li{
@@ -160,19 +168,6 @@ a:focus, a:hover {
 .row{
   margin: 0 0 0 0;
 }
-/* hero banner
-.hero{
-  background-image: url("../img/hero2.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  background-color: #ffffff;
-  color: #ff0000;
-  height: 90vh;
-  width: 100%;
-  padding-top: 50vh;
-}
-*/
 .sectiontitle{
   text-transform: uppercase;
   font-size: 28px;
