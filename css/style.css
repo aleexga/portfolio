@@ -132,8 +132,15 @@ h3{
   font-weight: bolder;
   padding-bottom: 10px;
 }
+h3{
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-family: 'varela', sans-serif;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
 p{
-  font-size: 1em;
+  font-size: 0.75em;
   font-family: 'varela', sans-serif;
 }
 ul li{
@@ -191,7 +198,7 @@ a:focus, a:hover {
 .cover-text{
   color: #ffffff;
   background-color: rgba(255, 0, 0, 0.4);
-  width: 75%;
+  width: 100%;
 }
 /*circles*/
 .circle {
@@ -249,6 +256,9 @@ a:focus, a:hover {
 }
 .link{
   color: #ff0000;
+}
+.link a:hover{
+  color: #ffffff;
 }
 /*Contact*/
 footer{
